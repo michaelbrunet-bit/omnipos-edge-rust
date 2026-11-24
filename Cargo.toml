@@ -1,0 +1,40 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/pos-core",
+    "crates/pos-ledger",
+    "crates/pos-hal",
+    "crates/pos-mod-sdk",
+    "crates/pos-mod-engine",
+    "crates/pos-storage",
+    "crates/pos-server",
+]
+
+[workspace.package]
+version = "0.2.0"
+edition = "2021"
+license = "MIT"
+authors = ["POS Architecture Team"]
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.10", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+sha2 = "0.10"
+hmac = "0.12"
+hex = "0.4"
+base64 = "0.22"
+argon2 = "0.5"
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+rand_core = { version = "0.6", features = ["getrandom"] }
+redb = "2.1"
+wasmi = "0.40"
+wat = "1.219"
+thiserror = "1.0"
+tokio = { version = "1.40", features = ["full"] }
+axum = { version = "0.7", features = ["ws", "macros"] }
+tower = "0.5"
+tower-http = { version = "0.5", features = ["cors", "fs", "trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

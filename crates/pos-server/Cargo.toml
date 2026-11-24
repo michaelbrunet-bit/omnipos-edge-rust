@@ -1,0 +1,23 @@
+[package]
+name = "pos-server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+pos-core = { path = "../pos-core" }
+pos-ledger = { path = "../pos-ledger" }
+pos-hal = { path = "../pos-hal" }
+pos-mod-engine = { path = "../pos-mod-engine" }
+pos-storage = { path = "../pos-storage" }
+serde.workspace = true
+serde_json.workspace = true
+hex.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+tokio.workspace = true
+axum.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true

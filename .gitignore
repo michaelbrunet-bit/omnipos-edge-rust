@@ -1,0 +1,8 @@
+/target
+/pos_data
+/frontend/node_modules
+/frontend/dist
+/frontend/src-tauri/target
+*.redb
+*.log
+.env*

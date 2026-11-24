@@ -1,0 +1,19 @@
+[package]
+name = "pos-storage"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+pos-core = { path = "../pos-core" }
+pos-ledger = { path = "../pos-ledger" }
+pos-mod-engine = { path = "../pos-mod-engine" }
+redb.workspace = true
+rand_core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+sha2.workspace = true
+hex.workspace = true
+thiserror.workspace = true
+uuid.workspace = true

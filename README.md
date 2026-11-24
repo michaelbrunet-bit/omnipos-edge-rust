@@ -28,3 +28,13 @@ cargo run -p pos-server
 # Start the React / TypeScript frontend
 cd frontend && npm install && npm run dev
 ```
+
+---
+
+## More Projects, Live Demos & Books by Michael Brunet
+- **[Main Studio & Storefront](https://michaelbrunet-bit.github.io/)**
+- **[Play 1983 W.O.P.R. Simulator Live](https://michaelbrunet-bit.github.io/GTW-1983-WOPR-Simulator/)**
+- **[Play Arcana Tactics Tarot RPG Live](https://michaelbrunet-bit.github.io/arcana-tactics/)**
+- **[Books & Survival Field Codex (*After Zero*, *Chronicles of Mike*, *Kronos* & Kids SEL)](https://michaelbrunet-bit.github.io/books/)**
+- **[Python/FastAPI & Hybrid RAG Templates (Gumroad)](https://brunetmike.gumroad.com)**
+- **[18 Live Cloud Data Extractors (Apify)](https://apify.com/dagnabit)**
